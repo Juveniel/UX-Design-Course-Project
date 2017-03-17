@@ -1,0 +1,223 @@
+/* Media Queries 768 - 1024 */
+@media (max-width: 480px) {
+    #user-nav li:nth-child(2){
+        display: none;
+    }
+    .visible-mobile{
+        display: block !important;
+    }
+    .page-headercontainer-heading h1, .about-section .panel-info h1{
+        font-size:30px !important;
+    }
+    .page-headercontainer-heading h4 {
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 768px) {
+    .panel-group .initiative-box{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+    .description{
+        min-height:auto;
+        margin-bottom:20px;
+    }
+    .panel{
+        height: auto;
+    }
+    .panel-group .initiative-box:last-child{
+        margin-bottom:0;
+    }
+    .row.labels .label{
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .info {
+        padding: 20px 30px;
+    }
+    .info p, .label p:nth-child(1) {
+        font-size: 15px !important;
+    }
+    .panel-info {
+        padding: 30px 15px;
+    }
+    footer .copyright{
+        display: none;
+    }
+    footer .logo img{
+        width: 230px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    footer .socials{
+        text-align: center;
+        margin: 30px 0 20px 0;
+    }
+    .navbar ul li:nth-child(5) > a{
+        width:100%;
+        border-right:none;
+        border-bottom:none;
+    }
+    .navbar ul li:nth-child(5){
+        border-bottom:none !important;
+    }
+}
+
+@media (max-width: 991px){
+    #user-nav{
+        float: right;
+        margin:0;
+    }
+    #main-nav > .container {
+        padding: 0 15px;
+    }
+    .navbar-nav > li > a {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    #site-nav{
+        float: none;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #site-nav li{
+        float: left;
+        position: relative;
+        width: 100%;
+        border-left: none;
+        margin-bottom:5px;
+        border-right:none;
+        border-bottom: 1px solid #588aad;
+    }
+    .navbar-header{
+        float: left !important;
+    }
+
+    .page-headercontainer-heading h1,
+    .about-section .panel-info h1{
+        font-size: 40px;
+    }
+    .page-headercontainer-heading h4{
+        font-size:22px;
+    }
+    .panel img {
+        height: 100px;
+    }
+    .panel-title{
+        font-size:22px;
+    }
+    .description{
+        font-size:15px;
+    }
+    .panel-button{
+        font-size:15px;
+    }
+    .info p,
+    .label p:nth-child(1){
+        font-size:18px;
+    }
+    .label p:nth-child(2){
+        font-size:30px;
+    }
+    main > .container {
+        padding: 0 15px;
+    }
+    .page-headercontainer-heading {
+        margin: 40px 0 90px 0;
+    }
+    .panel .img-container {
+        height: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a,
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+    }
+    .dropdown-menu > li > a {
+        display: block;
+        padding: 3px 20px;
+        clear: both;
+        font-weight: normal;
+        line-height: 1.42857143;
+        color: #333;
+        white-space: nowrap;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none;
+        /*margin: 7.5px -15px;*/
+        margin: 7.5px 50px 7.5px -15px
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+    #user-nav{
+        float: right;
+    }
+    .panel-group .initiative-box {
+        width: 30.8%;
+        margin-right: 3.3%;
+        margin-bottom: 9.4%;
+    }
+    .panel-title{
+        font-size:19px;
+    }
+    .description{
+        font-size:14px;
+    }
+    .panel {
+        padding: 15px 0px;
+        height: 322px;
+    }
+    .about-section{
+        margin-top:0;
+    }
+
+}
+
+@media only screen and (min-width : 992px) and (max-width: 1200px) {
+
+}
